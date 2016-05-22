@@ -1,0 +1,58 @@
+.root{
+	-fx-background-image:url(img/wall3.png);
+}
+.text-field{
+	-fx-background-color:#DCE0C5;
+	-fx-background-radius:20;
+	-fx-text-fill:#333;
+	-fx-prompt-text-fill:#4a4a4a;
+	-fx-font-weight:bold;
+	-fx-font-size:16;
+}
+.text-field:hover{
+	-fx-background-color:#DCE0C5;
+	-fx-background-radius:20;
+	-fx-text-fill:#333;
+	-fx-prompt-text-fill:#333;
+	-fx-font-weight:bold;
+	-fx-font-size:16;
+}
+.text-field:focused{
+	-fx-background-color:#DCE0C5;
+	-fx-background-radius:20;
+	-fx-text-fill:#333;
+	-fx-prompt-text-fill:#333;
+	-fx-font-weight:bold;
+	-fx-font-size:16;
+}
+.text-area{
+	-fx-background-color:#DCE0C5;
+	-fx-text-fill:#333;
+	-fx-prompt-text-fill:#333;
+	-fx-font-weight:bold;
+	-fx-font-size:14;
+}
+.text-area .scroll-pane {
+    -fx-background-color: #DCE0C5;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: #DCE0C5;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: #DCE0C5;
+}
+.text-field:hover{
+	-fx-border-color:rgb(233, 50, 45);
+	-fx-border-radius:20;
+	-fx-border-width:1.5px;
+}
+.button{
+	-fx-background-color:#EA6811;
+	-fx-text-fill:aliceblue ;
+	-fx-font-weight:bold;
+	-fx-font-size:16;
+	-fx-background-radius:20;
+}
